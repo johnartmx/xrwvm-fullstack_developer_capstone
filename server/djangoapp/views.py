@@ -96,7 +96,7 @@ def get_cars(request):
 # # by default, particular state if state is passed
 
 
-def get_dealerships(request, state = "All"):
+def get_dealerships(request, state  =  "All"):
     if (state == "All"):
         endpoint = "/fetchDealers"
     else:
